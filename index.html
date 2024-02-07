@@ -3,32 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bolsa</title>
+    <title>Miu Miu</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="topo" >
-        <h2>bolsa</h2>
-        <section class="menubar">
-            <ul>
-                <a href=""><li>pagina inicial</li></a>
-                <a href="https://wccm.org/o-que-e-meditacao/?gad_source=1&gclid=EAIaIQobChMIhqP09oTlgwMVyVhIAB2msgq6EAAYASAAEgKU2fD_BwE"><li>produto</li></a>
-                <a href="https://www.sos.org/meditation/learn-meditation/?gclid=EAIaIQobChMI5pPKkIXlgwMVHm5_AB27VwThEAAYASAAEgITU_D_BwE"><li>beneficios</li></a>
-                <a class="botao-secundario" href="https://amorc.org.br/?gad_source=1&gclid=EAIaIQobChMIz77Gt4XlgwMV8EVIAB0a0gdzEAAYASAAEgJTx_D_BwE"><li>sobre Nós</li></a>
+    <section class="topo">
+        <a href="index.html"><img src="img/icon.png" alt="" /></a>
+        <nav class="menu-lateral">
+          <ion-icon
+                class="botao-menu-close"
+                name="close-outline"
+                onclick="toggleMenu()"></ion-icon>
+          <ul>
+              <a href="index.html"><li>Página inicial</li></a>
+            <a href="#produtos"><li>Produtos</li></a>
+            <a href="#beneficios"><li>Benefícios</li></a>
+            <a href="#sobre-nos"><li>Sobre nós</li></a>
+            <a class="botao-primario" href="">Comprar agora!</a>
+          </ul>
+        </nav>
+        <ion-icon
+          class="botao-menu"
+          name="menu-outline"
+          onclick="toggleMenu()"
+        ></ion-icon>
+      </section>
 
+    <section class="header">
+        <section class="esquerda">
+        <h1>Aqui é a 
+            Miu Miu!</h1>
+        <p>A nova coleção apresenta um guarda-roupa que combina charme vintage e estilo moderno.</p>
+        <a class="botao-primario" href="">Comprar agora!</a>
+        </section>
+        <section class="direita">
+            <img src="img/img_cabeca.png" alt="">
+        </section>
+    </section>
+
+    <section id="produtos">
+        <h2>Nossos produtos</h2>
+        <h3>Descubra Peças Exclusivas Dos Melhores Designers Do Mundo..</h3>
+        <section class="produtos">
+            <section class="produto">
+                <img src="img/produto1.png" alt="">
+                <a class="botao-primario" href="">Comprar</a>
+            </section>
+            <section class="produto">
+                <img src="img/produto2.png" alt="">
+                <a class="botao-primario" href="">Comprar</a>
+            </section>
+            <section class="produto">
+                <img src="img/produto3.png" alt="">
+                <a class="botao-primario" href="">Comprar</a>
+            </section>
+        </section>
+    </section>
+    <section id="beneficios">
+        <h2>Benefícios</h2>
+        <section class="beneficios">
+            <section class="beneficio">
+                <section class="beneficio-titulo">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                    <h4>Estilo</h4>
+            </section>
+            <p>Compactas e práticas, mas ao mesmo tempo luxuosas e sofisticadas.</p>
+            </section>
+
+            <section class="beneficio">
+                <section class="beneficio-titulo">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                    <h4>Variedades</h4>
+            </section>
+            <p>As bolsas mini Miu Miu vêm em uma ampla variedade de estilos..</p>
+            </section>
+
+            <section class="beneficio">
+                <section class="beneficio-titulo">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                    <h4>Tendência</h4>
+            </section>
+            <p>A Miu Miu explora a moda com elegância e sofisticação a partir de conceitos novos.</p>
+            </section>
+        </section>
+        <a class="botao-primario" href="">Comprar</a>
+    </section>
+
+    <section id="sobre-nos">
+        <section class="esquerda">
+            <img src="img/img_sobre.png" alt="">
+        </section>
+        <section class="direita">
+            <h2>Sobre nós</h2>
+            <p>Lançada em 1993, a marca leva o apelido de infância da sua fundadora, e nasce com uma proposta mais acessível e divertida. Diferente da estética minimalista e sóbria da Prada, a Miu Miu traz um ar despojado e direcionado a um público mais jovem.
+                A identidade da Miu Miu é como um mosaico de influências, refletindo a diversidade de inspirações que Miuccia Prada incorpora em suas criações.
+                Em um mundo onde o conservadorismo muitas vezes dita as regras, a marca se destaca ao abraçar a excentricidade e a individualidade. Com peças que trazem elementos contrastantes, como o feminino e o masculino, o clássico e o contemporâneo, o nostálgico e o futurista.
+                Outro aspecto da identidade da Miu Miu é a celebração da juventude, misturando expressões de ingenuidade com atitude e coragem.
+            </p>
+            <a class="botao-primario" href="">Saiba mais</a>
+            </section>
+    </section>
+
+    <footer>
+        <section class="marca">
+            <img src="img/icon.png" alt="">
+            <p>Com criações que unem elegância e rebeldia,!</p>
+        </section>
+        <section class="informacoes">
+            <h5>Informações</h5>
+            <ul>
+                <li>Contate-nos</li>
+                <li>Sobre nós</li>
+                <li>Blog</li>
+                <li>FAQs</li>
             </ul>
         </section>
-    </section>
-    <section class="corpo">
-        <section class="esquerda">
-             <p>aprenda ja</p>
-             <h1>Mindfulness</h1>
-             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed libero cupiditate nostrum ex aut beatae quos aliquid ducimus qui suscipit expedita aperiam dolores numquam, incidunt nobis fugit ipsa nulla placeat?</p>
-             <a class="botao-primario" href="">Quero aprender!!</a>
+        <section class="empresa">
+            <h5>Empresa</h5>
+            <ul>
+                <li>Promoções</li>
+                <li>Carreiras</li>
+                <li>Termos e condições</li>
+                <li>Políticas de privacidade</li>
+            </ul>
         </section>
-
-        <section class="direita">
-            <img src="potted plants-bro.png" alt="Imagem de planta">
+        <section class="contato">
+            <h5>Conecte-se conosco!</h5>
+            <section class="icons">
+                <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+            </section>
         </section>
-    </section>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
